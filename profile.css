@@ -1,0 +1,83 @@
+.container{
+width: 480px;
+height: 800px;
+border: 1px solid lightgray;
+margin: 50px auto;
+position: relative;
+}
+ 
+.uppercolorbox{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+.line{  
+    margin-bottom: 10px;
+    color: white;
+}
+.whitebox{
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+.msg{ 
+    text-align: center;
+    color: white;
+
+}
+.image{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10pt;
+}
+.icon1{
+    width: 40px;
+    height: 40px;
+}
+.icon2{
+    width: 40px;
+    height: 40px;
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+}
+.chaticon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogicon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.qutateicon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.pics{
+    width: 100px;
+    height: 100px;
+    top: 450px;
+    left: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+}
